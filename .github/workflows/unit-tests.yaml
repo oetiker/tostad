@@ -70,7 +70,7 @@ jobs:
 
     - name: Test
       run: |
-          cp etc/<%= $filename %>.dist.yaml  etc/<%= $filename %>.yaml
+          cp etc/tostad.cfg.dist  etc/tostad.cfg
           make test
 
     - name: Dist
