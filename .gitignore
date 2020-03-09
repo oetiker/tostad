@@ -2,7 +2,7 @@ aclocal.m4
 autom4te.cache/
 tostad-*/
 *.tar.gz
-/etc
+etc
 !etc/Makefile.am
 !etc/*.dist
 /blib/
